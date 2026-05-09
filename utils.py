@@ -1,5 +1,4 @@
 import pandas as pd
-import plotly.express as px
 from db import engine
 
 def load_kpis() -> dict[str, float]:
