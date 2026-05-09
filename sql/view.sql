@@ -46,15 +46,6 @@ FROM superstore
 GROUP BY Ship_Mode
 ORDER BY Average_Delivery_Days DESC;
 
-SELECT
-    Customer_Name,
-    MAX(Order_Date) AS Max_Order_Date,
-    COUNT(DISTINCT Order_ID) AS Total_Orders,
-    SUM(Sales) AS Total_Sales,
-    DATEDIFF((SELECT MAX(Order_Date) FROM superstore), MAX(Order_Date)) AS Recency
-FROM superstore
-GROUP BY Customer_Name;
-
 CREATE VIEW RFM_Analysis_View AS
 WITH rfm_base AS (
     SELECT
