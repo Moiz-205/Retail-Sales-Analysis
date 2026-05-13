@@ -2,10 +2,6 @@
 
 Project for Retail Sales Analysis using MySQL for ETL and Python for data analysis, deployed with an interactive Streamlit dashboard.
 
-## Live Dashboard
-
-[View Dashboard]()
-
 ---
 
 ## Project Overview
@@ -60,8 +56,11 @@ Retail-Sales-Analysis/
 ## ETL Procedure
 
 1. Raw CSV loaded into MySQL via Python/SQLAlchemy
+
 2. Column renaming and type fixes (`transform.sql`)
+
 3. Feature engineering (`extract.sql`):
+   
    - Delivery Days
    
    - Profit Margin %
@@ -99,7 +98,17 @@ Retail-Sales-Analysis/
 
 ## Screenshots
 
-<screenshots>
+![Dashboard-1](screenshots/dashboard-1.png)
+
+![Dashboard-2](screenshots/dashboard-2.png)
+
+![Dashboard-3](screenshots/dashboard-3.png)
+
+![Dashboard-4](screenshots/dashboard-4.png)
+
+![Dashboard-5](screenshots/dashboard-5.png)
+
+![Dashboard-6](screenshots/dashboard-6.png)
 
 ---
 
@@ -108,7 +117,7 @@ Retail-Sales-Analysis/
 **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/Moiz-205/Retail-Sales-Analysis
+git clone https://github.com/Moiz-205/Retail-Sales-Analysis.git
 cd Retail-Sales-Analysis
 ```
 
